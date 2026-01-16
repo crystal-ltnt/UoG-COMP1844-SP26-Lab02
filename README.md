@@ -1,6 +1,6 @@
-# UoG-COMP1844-SP26-Lab02
+# COMP1844 - Information Analysis and Visualisation
 
-## Information Analysis and Visualisation - Laboratory Session 2
+## Laboratory Session 2: Data Types
 
 ### Overview
 
@@ -70,36 +70,46 @@ while i < 10:
 ## Tasks
 
 ### Task 1: Array Initialization and Visualization
+
 Initialise a one-dimensional array `A` with 10 random integer numbers from the interval [0, 100] and visualise the elements alongside their indices. Remember that NumPy arrays start from index zero.
 
 ### Task 2: Sum and Average
+
 Visualise the sum and the average value of the array.
 
 ### Task 3: Min/Max Values
+
 Visualise the minimum and maximum values alongside their indices. Use NumPy functions: `min`, `max`, `argmax`, and `argmin`.
 
 ### Task 4: Sorting
+
 Initialise arrays `B` and `C` with values from array `A` arranged in ascending and descending order, respectively. Visualise arrays `B` and `C`.
 
 ### Task 5: Manual Implementation
+
 Implement at least one of Tasks 2 to 4 **without using functions from the NumPy library** (apart from initialising the array).
 
 ### Task 6: Table Visualization
+
 Visualise arrays `A`, `B`, and `C` as a table. Display the indices of the arrays in the first column of the table.
 
 ### Task 7: Arithmetic Sequence
+
 Initialise array `D` with 10 integer values, such that:
+
 - The first value is **10**
 - Every consecutive value equals the previous value **plus 4**
 
 Display the array alongside its indices.
 
 ### Task 8: Guess the Number Game (Extra)
+
 *(Complete if time permits)*
 
 **Part 1:** Write a script that generates a random integer value between 1 and 10. Use the `random` and `datetime` libraries to guarantee a different random number every time the script is run.
 
 **Part 2:** In another cell, write a script that:
+
 - Reads an integer value entered by the user
 - Compares it with the random value from Part 1
 - Displays an appropriate message if the entered value is larger or smaller
@@ -111,17 +121,17 @@ Display the array alongside its indices.
 
 ## Useful NumPy Functions
 
-| Function | Description |
-|----------|-------------|
-| `np.empty()` | Create an uninitialized array |
-| `np.random.randint()` | Generate random integers |
-| `np.sum()` | Calculate sum of elements |
-| `np.mean()` | Calculate average of elements |
-| `np.min()` | Find minimum value |
-| `np.max()` | Find maximum value |
-| `np.argmin()` | Find index of minimum value |
-| `np.argmax()` | Find index of maximum value |
-| `np.sort()` | Sort array in ascending order |
+| Function                | Description                   |
+| ----------------------- | ----------------------------- |
+| `np.empty()`          | Create an uninitialized array |
+| `np.random.randint()` | Generate random integers      |
+| `np.sum()`            | Calculate sum of elements     |
+| `np.mean()`           | Calculate average of elements |
+| `np.min()`            | Find minimum value            |
+| `np.max()`            | Find maximum value            |
+| `np.argmin()`         | Find index of minimum value   |
+| `np.argmax()`         | Find index of maximum value   |
+| `np.sort()`           | Sort array in ascending order |
 
 ---
 
